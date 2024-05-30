@@ -1,0 +1,199 @@
+
+/* div que contiene los cuatro elementos de la tarea: 1. Botón que permite cambiar el tema. 2. Título del bloque. 3. Carrusel 4. Botón para añadir una nueva opinión. */
+.carrusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 400px;
+    padding: 2rem;
+  
+    margin-top: 2rem; /* Necesario para separarlo con el contenedor anterior. Estaba muy pegado y quedaba poco estético. */
+}
+
+
+/*Contiene los 3 elementos del carrusel en los que lo he dividido. El bloque de las opiniones, llamado #comun, y los bloques de los botones */
+.central {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 3rem;
+}
+
+
+/*Contiene los 4 elementos descritos, la imagen, el nombre, la opinión y la fecha de la misma */
+#comun {
+  width: 60rem;
+  height: 25rem;
+  background-color: white;
+  display: grid;
+  grid-template-rows: minmax(100px, 4fr) 2fr 3fr 1fr;     
+  border-radius: 20px;
+  padding: 2rem;
+  font-size: var(--fuente-Documentos);
+  justify-items: center;
+}
+
+
+.titulo {
+  text-align: center;
+}
+
+
+/*Botones mostrar-ocultar, anterior, posterior y cambio de temas */
+#boton-mostrar-ocultar {
+    margin-top: 1rem;
+    align-self: flex-end; 
+    border-radius: 50px;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+#boton-anterior,
+#boton-siguiente {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    background: none;    
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+#cambiar-tema{
+  border-radius: 25px;
+  width: 6rem;
+  height: 4rem;
+  padding: 0rem;
+  align-self: flex-end;
+}
+
+
+/*Valores escogidos para el cambio de tema desde javaScript*/
+
+.tema-oscuro {
+  background-color: rgb(72, 72, 77); 
+}
+
+.titulo-oscuro {
+  color: #fff; /* Texto blanco */
+}
+
+
+
+/* Formulario con sus atributos y valores.*/
+
+#elemento {
+  width: 80%;
+  justify-content: center;
+}
+
+#formulario-opinion {
+  width: 60%;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.campo {
+  margin-bottom: 2px;
+  padding: 0px;
+}
+
+
+/* Tengo discrepancias con css modulos. */
+#nombress {
+    width: 60%;
+    padding: 8px;
+    cursor:auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    margin-left: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    
+}
+
+/* Tengo discrepancias con css modulos. */
+.campo textarea {
+  width: 97%;
+  margin-left: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  color: var(--negro);
+  font-size: 1.2rem;
+  font-family: sans-serif;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: right;
+    padding: 0px;
+}
+
+/* Separo los botones por discrepancias con css estados y modulos */
+#boton-formulario-aceptar
+{
+  width: calc(20% - 5px);
+  height: 4rem;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: var(--negro);
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #4CAF50; 
+  margin-top: 2rem;
+}
+
+
+#boton-ocultar-formulario-reset
+{
+  width: calc(20% - 5px);
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: var(--negro);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+  background-color: #f44336; 
+  
+}
+
+
+/* div dentro del layout #comun donde se recibe el javaScript. */
+
+#carrusel-opiniones0{
+  border-radius: 100px;
+  width: 9rem;
+  height: 9rem;
+}
+
+
+#carrusel-opiniones {
+   font-weight: bold;
+   font-size: 20px;
+   height: 1rem;
+}
+
+
+#carrusel-opiniones2{
+  text-align: center;
+  padding: 1rem;
+}
+
+#carrusel-opiniones3 {
+   justify-self: end;
+}

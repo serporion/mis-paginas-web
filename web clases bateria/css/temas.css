@@ -1,0 +1,66 @@
+
+/** Tema claro oscuro **/
+
+.toggle {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    height: 0.5rem;
+    background-image: url(../images/lunasol.jpg);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+/** Ocultar el checkbox utilizado para hacer de interruptor entre un modo y otro. **/
+.oculto{
+    display: none;
+}
+
+
+/** El id=contenedor tendrá estas propiedades. **/
+#toggle-theme:checked ~ #contenedor {
+    color:var(--blanco);
+    background-color: #eb0e0e;
+    box-shadow: 20px 60px 40px -3px rgba(5, 5, 5, 0.61);
+    border-radius: 2rem;
+
+}
+
+/** Para poder acceder a span y a form y cambiar sus propiedades **/ 
+#toggle-theme:checked ~ #contenedor span {
+    color: var(--solid); 
+}
+
+
+/** Uso clase especial para eleminisar CSS específico y setearlo a los nuevos.**/
+#toggle-theme:checked ~ #contenedor span.especial {
+    color: var(--grisClaro); /* Cambia el color del texto del span con clase .especial a blanco */
+}
+
+
+#toggle-theme:checked ~ #contenedor form {
+    background-color: #af2626;   
+}
+
+#toggle-theme:checked ~ #contenedor p.pespecial {
+    color: var(--solid);
+   
+}
+
+#toggle-theme:checked ~ #contenedor main.mainespecial {
+    background-image:none;
+	background-color:transparent;
+   
+}
+
+#toggle-theme:checked ~ #contenedor a.aespecial {
+    color:var(--blanco);
+}
+
+#toggle-theme:checked ~ #contenedor h2.h2especial {
+	color:var(--solid);
+   
+}

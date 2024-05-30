@@ -1,0 +1,191 @@
+/**Globales**/
+/** Usadas cuando se invocan con var**/
+
+:root{
+    --negro: #3d3c3c;
+    --negromas: #212121;
+    --rojo: #af2626;
+    --solid: #000000;
+    --blanco: #ffffff;
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Candara', sans-serif;
+    --fuente-Documentos: 1.5rem;
+    --fuente-Destaque: 2rem;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+
+
+}
+
+/** Etiquetas **/
+
+
+/** Incluyo unas medidas previas de todo mi html para usar medidas proporcionales en todo el diseño **/
+html{
+    box-sizing: border-box; 
+    font-size: 62.5%; /* 1rem = 10px*/
+}
+
+
+
+/** Estilo al body con degradado. No es blanco puro, es más suave, con tonos azulados **/
+body{
+    
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--solid) 100%);   
+    background-color: var(--solid);
+}
+
+
+/** Hipervinculos editados **/
+a{
+    text-decoration: none;
+    color:var(--solid);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: var(--fuenteHeading);
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+    
+h2 {
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: var(--blanco);
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: var(--fuenteParrafos);
+    text-align: justify;
+}
+
+span{
+    font-size: 3rem;
+    color: var(--gris);
+}
+
+iframe{
+    width: 45rem;
+    height: 45rem;
+    border:2rem;
+}
+
+hr {
+    width: 60%;
+    border-color:var(--gris);
+    margin-top: 3rem;
+}
+
+
+/** Uso especial del logo **/
+
+.logo__nombre{
+   font-weight: 400;
+   color:var(--blanco);
+}
+
+.logo__bold{
+    font-weight: bold;
+    font-size: 5rem;
+	
+}
+
+
+
+
+/**Utilidades. Uso para definir atributos y propiedades que pueden ser comunes a cualquier elementos.**/
+
+
+.espaciodeparrafo{
+    line-height: 2.7rem;
+}
+
+.back{
+    background-image: url(../images/bateria6.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.centrar-texto{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.blanco{
+    color:var(--blanco);
+}
+
+.negro{
+    color:var(--negro)
+}
+
+.destaque{
+    font-size: 3.5rem;
+    color: var(--gris);
+}
+
+.padding15{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.padding5{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.padding4{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.paddingtop5{
+    padding-top: 5rem;
+}
+
+.margintop5{
+    margin-top: 5rem;
+}
+
+.margin-left4{
+	margin-left: 4rem;
+}
+
+.marginbotton5{
+    margin-bottom: 6rem;
+}
+
+.paddingbottom4{
+    padding-bottom: 4rem;
+}
+
+.paddingright5{
+    padding-right: 5rem;
+}
+
+.letra{
+    font-size: var(--fuente-Destaque);
+}
+
+.centrado{
+    align-items: center;
+}
+
+.flotaderecha{
+	 float: right;
+}

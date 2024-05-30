@@ -1,0 +1,258 @@
+
+
+        /** Responsive. Usabilidad en otros dispositivos  **/
+
+
+
+/** Cambio de estado según dispositivo de la barra de navegación **/
+
+@media (min-width:768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+}
+
+
+
+/** Estilo para hacer los visitados y visualizar funcionando bien tanto en Firefox como en Chrome.
+.navegacion-principal a:focus,
+.navegacion-principal a:visited {
+    color: red;
+}
+*/
+
+/** Estilo para los enlaces no visitados */
+
+.navegacion-principal a:link {
+    color: white; 
+}
+
+
+/** Estilo para enlaces enfocados. En Firefox al recargar la página vuelven a blanco**/
+.navegacion-principal a:focus {
+    color: red;
+}
+
+/** Estilo para enlaces visitados que no están enfocados. En Firefox al actualizar el azul no se ve nunca. Además, cuando pincho de nuevo en otro enlace se desmarca en visitado anterior.**/
+/** En Chrome si se ve este cambio cuando pierde el foco. Mientras tenga el foco estará en rojo. Se quedan permanentemente los visitados en rojo**/
+.navegacion-principal a:visited:not(:focus) {
+    color: red;
+}
+
+
+.navegacion-principal a:hover{
+    color: var(--negro);
+    background: url(../images/baqueta.jpg) center/cover; /* Ruta de la imagen y estilo de fondo */
+    
+}
+
+
+
+
+
+/**Formulario: Cambio de estado de los botones del formulario **/
+
+input[type="submit"]:hover,[type="reset"]:hover {
+    background-color: #292527;
+    text-transform: uppercase;
+    color: var(--blanco);
+}
+
+
+
+
+/** Cambio del estado del tamaño de las imagenes de la página nuestrasclasesdebateria **/
+
+.escalable img:hover {
+    transition: transform 0.3s ease;
+    transform: scale(2); /* Aumenta el tamaño al pasar el ratón */
+}
+
+
+/** Cambio de estado según dispositivo de las páginas nosotros.html y asisomos.html **/
+
+@media (max-width: 768px) {
+    .item-asi{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .item-asi{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 0.2rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        justify-items: center;
+    }
+}
+
+/** Cambio de estado según dispositivo de la página index.html **/
+
+@media (max-width: 1200px) {
+    .items-index{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .items-index{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .items-index{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+
+
+/** Cambio de estado según dispositivo del contenido principal de la página nuestrasclasesdebateria.html **/
+
+@media (max-width: 1200px) {
+    .items-clases{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .items-clases{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .items-clases{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+
+/** Cambio de estado según dispositivo de las imágenes de la página nuestrasclasesdebateria.html **/
+
+@media (max-width: 1200px) {
+    .alinear{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .alinear{
+       
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .alinear{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 0.2rem;
+        padding-top: 3rem;
+        justify-content: center;
+        
+    }
+}
+
+
+/** Cambio de estado según dispositivo de la página formulario.html **/
+
+@media (max-width: 2000px) {
+    .alinear2{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 0.2rem;
+        padding-left: 5;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .alinear2{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 0.2rem;
+        padding-top: 3rem;
+        justify-content: center;
+        
+    }
+    iframe{
+        width: 40rem;
+        height: 35rem;
+        margin-bottom: 8rem;
+    }
+}
+
+
+/** Sombra: que se aplica a ciertos elementos contenedores para un efecto 3D y sombreado **/
+
+.sombra {
+    
+    box-shadow: 20px 60px 40px -3px rgba(5, 5, 5, 0.61);
+    background-color: var(--negro);
+    /*padding: rem;*/
+    border-radius: 2rem;
+    
+}
+
+.sombra2 {
+    box-shadow: 20px 60px 40px -3px rgba(5, 5, 5, 0.61);
+    background-color: var(--gris);
+    /*padding: rem;*/
+    border-radius: 2rem;
+}
+
+.sombra3 {
+    box-shadow: 20px 60px 40px -3px rgba(5, 5, 5, 0.61);
+    background-color:transparent;
+    /*padding: rem;*/
+    border-radius: 2rem;
+}
+
+
+/** Animación del logo de la empresa **/
+
+.rock-animation h1 {
+    animation: rockAnimation 3s ease infinite alternate;
+}
+
+@keyframes rockAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(-5deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
