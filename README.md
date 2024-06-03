@@ -4,7 +4,7 @@ Este repositorio contiene cuatro páginas web independientes. Cada página web e
 
 ## Estructura del Repositorio
 
-├──Blog_de_cafe/
+`├──Blog_de_cafe/`
 
 │├──css/
 
@@ -24,7 +24,7 @@ Este repositorio contiene cuatro páginas web independientes. Cada página web e
 
 │└──README.md
 
-├──Freelancer/
+`├──Freelancer/`
 
 │├──css/
 
@@ -34,7 +34,7 @@ Este repositorio contiene cuatro páginas web independientes. Cada página web e
 
 │└──README.md
 
-├──Front_End_Store/
+`├──Front_End_Store/`
 
 │├──css/
 
@@ -48,7 +48,7 @@ Este repositorio contiene cuatro páginas web independientes. Cada página web e
 
 │└──README.md
 
-├──Web_clases_bateria/
+`├──Web_clases_bateria/`
 
 │├──css/
 
