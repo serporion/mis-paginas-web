@@ -28,7 +28,7 @@ Blog_de_cafe/
 - `cursos.html`: Página donde se encuentra la información de los cursos disponibles, precios y cupos.
 - `entrada.html`: Página donde se muestra la entrada que aparecer en la página principal del blog.
 - `index.html`: Página principal del blog.
-- `nosotros.html`: Página donde se habla de quienes son los que administrar y gestionan el blog.
+- `nosotros.html`: Página donde se habla de quienes son los que administran y gestionan el blog.
 
 
 ## Directorio CSS
