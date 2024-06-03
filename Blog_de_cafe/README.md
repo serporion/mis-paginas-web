@@ -68,7 +68,7 @@ open index.html  # o simplemente abrirlo con tu navegador
 
 
 ## Licencia
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE] del repositorio general para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo `LICENSE` del repositorio general para más detalles.
 
 ## Contacto y Soporte
 
