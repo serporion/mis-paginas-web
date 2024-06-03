@@ -22,7 +22,7 @@ Freelancer/
 ```
 
 ## Archivos HTML
-- `index.html`: Página principal del blog.
+- `index.html`: Página principal de la web.
 
 
 ## Directorio CSS
