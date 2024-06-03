@@ -6,6 +6,8 @@ Se crea una simulación de blog donde se ofertan cursos relacionados con el mund
 
 ## Estructura del Proyecto
 
+```plaintext
+/
 Blog_de_cafe/
 ├── css/
 │ ├── styles.css
@@ -19,13 +21,14 @@ Blog_de_cafe/
 └── index.html
 └── nosotros.html
 
-
+```
 
 ## Archivos HTML
-- `contacto.html`: Página donde ponerse en contacto con los cursos ofrecidos en este blog.
-- `cursos.html`: Página donde se encuentra la información de los cursos, precios y cupos.
+- `contacto.html`: Página donde los usuarios nos pueden mandar mensajes.
+- `cursos.html`: Página donde se encuentra la información de los cursos disponibles, precios y cupos.
 - `entrada.html`: Página donde se muestra la entrada que aparecer en la página principal del blog.
 - `index.html`: Página principal del blog.
+- `nosotros.html`: Página donde se habla de quienes son los que administrar y gestionan el blog.
 
 
 ## Directorio CSS
@@ -48,7 +51,7 @@ Blog_de_cafe/
 
 Instrucciones sobre cómo usar o instalar el Blog de Café.
 
-- Tienes que clonar el respositio completo o usar alguna aplio
+- Tienes que clonar el respositio completo o usar alguna aplicación disponible para solo hacer una descarga del directorio en el que estés interesado.
 
 ### Clonar el Repositorio
 
@@ -65,7 +68,7 @@ open index.html  # o simplemente abrirlo con tu navegador
 
 
 ## Licencia
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE] del repositorio general para más detalles.
 
 ## Contacto y Soporte
 
