@@ -38,7 +38,7 @@ Freelancer/
 
 ## Cómo Usar la Página
 
-Instrucciones sobre cómo usar o instalar el Blog de Café.
+Instrucciones sobre cómo usar o instalar la web Freelancer.
 
 - Tienes que clonar el respositio completo o usar alguna aplicación disponible para solo hacer una descarga del directorio en el que estés interesado.
 
