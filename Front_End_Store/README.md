@@ -21,7 +21,7 @@ Front_End_Store/
 ```
 
 ## Archivos HTML
-- `index.html`: Página principal del blog.
+- `index.html`: Página principal de la web.
 - `nosotros.html`: Página donde se habla de quienes son los que administran y gestionan el blog.
 - `producto.html`: Página donde se elige la talla y la camiseta. No cambia de imagen. Todas se referencian a la misma página con la misma camiseta. No se usa JavaScript.
 
